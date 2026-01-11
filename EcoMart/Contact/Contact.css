@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+
+
+    border: borer-box; /*padding of an element or border size sjpuld be count as height */
+}
+
+.border{
+    border: 1.25px solid transparent;
+}
+
+.border:hover{
+    border: 1px solid black;
+}
+
+.Name-border{
+    width: 10%;
+    font-size: 0.85rem;
+}
+
+body{
+    background-image: url("/EcoMart/images/Background.png");
+    background-size: cover;
+}
+.Anchor{
+    text-decoration: none;
+}
+
+.Tag{               /*Nav anchor Tag */
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    margin-left: 2px;
+    font-weight: 700;
+
+}
+
+
+
+
+                 /*****          NavBar          ***/
+.navbar{
+    height: 60px;
+    background-color: beige;
+    color: #dcc7a1;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 1px solid green;
+}
+
+.nav-logo{
+   height: 50px;
+   width: 50px;
+
+}
+
+.logo{
+     background-image: url("/EcoMart/images/Logo.png");
+    background-size: cover;
+    height: 70px;
+    width: 70px;
+}
+
+.EcoMart{           /*Name of Store */
+    color: #2e2e2e;
+    font-size: 2rem;
+    margin-left: 0px;
+    font-weight: 550;
+}
+
+.add-home{          /*Home Icon*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-products{           /*product Icon*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-research{           /*Research Icon*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-aboutUs{            /*About Icon*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.add-Contact{          /*Contact Icon*/  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-cart{          /*Cart Icon*/ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Cart{              /*Cart*/ 
+    color: black;
+    font-size: 1rem;
+    margin-left: 2px;
+    font-weight: 700;
+}
+
+                /*****          NavBar Ends Here        ***/
