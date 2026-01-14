@@ -20,4 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
             this.style.transform = "scale(1)";
         };
     });
+
 });
+
+//to link this script to html files use the <script> tag and add this file's name in the src just before where the <body> tag closes
