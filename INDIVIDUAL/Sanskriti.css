@@ -1,0 +1,96 @@
+:root {
+  --eco-green: #5a8d44;
+  --soft-green: #eef5e9;
+  --glass: rgba(255, 255, 255, 0.8);
+}
+
+body {
+  background: linear-gradient(135deg, #d4fc79 0%, #96e6a1 100%); 
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+
+.profile-card {
+  background: var(--glass);
+  backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 30px;
+  padding: 40px;
+  height:800px;
+  width:950px;
+  max-width: 500px;
+  text-align: center;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+
+}
+
+.profile-card:hover {
+  transform: translateY(-10px);
+}
+
+.image-section img {
+  width: 180px;
+  height: 180px;
+  border: 5px solid white;
+  object-fit: cover;
+  margin-bottom: 20px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.name {
+  color: #2d4f1e;
+  font-size: 2rem;
+  margin: 0;
+}
+
+.role {
+  color: var(--eco-green);
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+
+.detail-item {
+  text-align: left;
+  margin-bottom: 15px;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.tags span {
+  background: var(--eco-green);
+  color: white;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  margin-right: 5px;
+  display: inline-block;
+  margin-top: 5px;
+}
+
+.social-links {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 12px;
+  font-size: 0.9rem;
+  color: white;
+  background: #333; /* Default GitHub color */
+  transition: opacity 0.3s;
+}
+
+.btn.email { background: var(--eco-green); }
+.btn.linkedin { background: #0077b5; }
+.btn:hover { opacity: 0.8; }
